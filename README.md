@@ -57,6 +57,7 @@ I'm always up for a new challenge.
 
 | Project | What it is | Built with |
 |---|---|---|
+| **Vision-language models for dermatology** · *ongoing research, private* | Independent research collaboration: testing how well general-purpose vision models classify skin images with only a few examples, running on an HPC cluster | Python · deep learning · HPC |
 | **Dexter (SkillSwap)** · *moving to this account soon* | Team app to swap skills between people: Android client, REST API and an AI service that suggests session dates | Kotlin · Spring Boot · PostgreSQL · Gemini · Heroku |
 | **NEXUS UNA** · *private* | Web platform that consolidates academic information for UNA's Rector's Office (UGPCI) | Institutional project |
 | [MiniKafka](https://github.com/saulfv04/Message-Broker-MiniKafka) | Kafka-style message broker with producers, consumer groups and disk persistence | C · sockets · threads |
