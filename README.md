@@ -1,4 +1,4 @@
-<img src="assets/banner.svg" width="100%" alt="Yassir Jiménez Carballo — branch/merge banner" />
+<img src="assets/banner-v2.svg" width="100%" alt="Yassir Jiménez Carballo — branch/merge banner" />
 
 <p align="center">
   <a href="https://www.linkedin.com/in/yassir-jim%C3%A9nez-carballo-54802b216/"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=CD1719" /></a>
