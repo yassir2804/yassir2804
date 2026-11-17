@@ -28,10 +28,10 @@
   <circle cx="760" cy="150" r="6" fill="#CD1719"/>
   <circle cx="1220" cy="150" r="6" fill="#CD1719"/>
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#8B949E">
-    <text x="736" y="132">fork</text>
-    <text x="1200" y="132">join</text>
-    <text x="1092" y="70">T0</text><text x="1092" y="115">T1</text>
-    <text x="1092" y="175">T2</text><text x="1092" y="220">T3</text>
+    <text x="728" y="132">branch</text>
+    <text x="1196" y="132">merge</text>
+    <text x="960" y="70">android</text><text x="960" y="115">backend</text>
+    <text x="960" y="175">web</text><text x="960" y="220">community</text>
   </g>
   <g fill="#CD1719">
     <circle r="5"><animateMotion dur="3.2s" repeatCount="indefinite"><mpath href="#l0"/></animateMotion></circle>
@@ -42,9 +42,9 @@
 
   <!-- text -->
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-    <text x="70" y="112" font-size="16" fill="#CD1719">#pragma omp parallel  // welcome</text>
+    <text x="70" y="112" font-size="16" fill="#CD1719">$ git checkout -b hello-world</text>
     <text x="70" y="162" font-size="42" font-weight="700" fill="#E6EDF3" font-family="Segoe UI, Helvetica, Arial, sans-serif">Yassir Jiménez Carballo</text>
     <text x="70" y="200" font-size="17" fill="#8B949E" font-family="Segoe UI, Helvetica, Arial, sans-serif">Information Systems Engineering · UNA Costa Rica</text>
-    <text x="70" y="240" font-size="15" fill="#E6EDF3" fill-opacity="0.75">{ parallel · systems · community }</text>
+    <text x="70" y="240" font-size="15" fill="#E6EDF3" fill-opacity="0.75">{ mobile · web · networks · community }</text>
   </g>
 </svg>
