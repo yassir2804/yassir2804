@@ -1,59 +1,63 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,60:3B0D11,100:CD1719&height=120&section=header" width="100%" />
+<img src="assets/banner.svg" width="100%" alt="Yassir Jiménez Carballo — fork/join banner" />
 
-<div align="center">
-
-# Yassir Jiménez Carballo
-
-**Information Systems Engineering · Parallel Programming · Tech Community**
-
-Writing C++ and C that runs on many threads, and measuring whether it is really worth it.
-
-Information Systems Engineering @ Universidad Nacional de Costa Rica (UNA) · B.Sc. expected 2027
+<p align="center">
+  <a href="mailto:yassirjimenez5@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=CD1719" /></a>
+  <a href="mailto:yassir.jimenez.carballo@est.una.ac.cr"><img src="https://img.shields.io/badge/UNA_Email-0D1117?style=for-the-badge&logo=gmail&logoColor=CD1719" /></a>
+  <!-- LinkedIn: replace YOUR-PROFILE and uncomment
+  <a href="https://www.linkedin.com/in/YOUR-PROFILE"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=CD1719" /></a>
+  -->
+</p>
 
 <br>
 
-[![Email](https://img.shields.io/badge/Email-CD1719?style=flat-square&logo=gmail&logoColor=white)](mailto:yassirjimenez5@gmail.com)
-[![UNA Email](https://img.shields.io/badge/UNA_Email-0D1117?style=flat-square&logo=maildotru&logoColor=white)](mailto:yassir.jimenez.carballo@est.una.ac.cr)
-<!-- LinkedIn: replace YOUR-PROFILE and uncomment
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR-PROFILE)
--->
+<h2 align="center"><img src="assets/icons/about.svg" width="22" /> <em>About me</em></h2>
 
-</div>
+<img src="assets/threads.svg" width="250" align="right" alt="Four threads running in parallel and joining" />
+
+Hi! I'm **Yassir**, an Information Systems Engineering student at Universidad Nacional de Costa Rica (UNA), graduating in 2027.
+
+I like taking code that already works and making it run on many threads, and then measuring honestly whether it was worth it. I also enjoy building things people actually use, from institutional web platforms to tech events for students.
+
+Right now I'm exploring **machine learning** and **quantum computing**.
+
+<br clear="right" />
+
+<p align="center">
+  <img src="assets/icons/building.svg" width="16" /> <b><em>Assistant at UGPCI (UNA): NEXUS UNA platform for the Rector's Office</em></b><br/>
+  <img src="assets/icons/bolt.svg" width="16" /> <b><em>Vice Chair, IEEE Student Branch UNA</em></b><br/>
+  <img src="assets/icons/teach.svg" width="16" /> <b><em>Former teaching assistant: Programming 1 (30 students)</em></b><br/>
+  <img src="assets/icons/data.svg" width="16" /> <b><em>Costa Rica Big Data School 2025 (CeNAT) · Cisco CCNA v7 (3 modules)</em></b>
+</p>
 
 <br>
 
-### Languages & Tools
+<h2 align="center"><img src="assets/icons/tools.svg" width="22" /> <em>Technologies</em></h2>
 
-<p>
-<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
-<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+<p align="center">
+  <img src="https://img.shields.io/badge/C%2B%2B-0D1117?style=for-the-badge&logo=cplusplus&logoColor=CD1719" />
+  <img src="https://img.shields.io/badge/C-0D1117?style=for-the-badge&logo=c&logoColor=CD1719" />
+  <img src="https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=CD1719" />
+  <img src="https://img.shields.io/badge/Java-0D1117?style=for-the-badge&logo=openjdk&logoColor=CD1719" />
+  <br/>
+  <img src="https://img.shields.io/badge/OpenMP-0D1117?style=for-the-badge&logoColor=CD1719" />
+  <img src="https://img.shields.io/badge/pandas-0D1117?style=for-the-badge&logo=pandas&logoColor=CD1719" />
+  <img src="https://img.shields.io/badge/NumPy-0D1117?style=for-the-badge&logo=numpy&logoColor=CD1719" />
+  <img src="https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=CD1719" />
+  <img src="https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=CD1719" />
 </p>
 
-<p>
-<img src="https://img.shields.io/badge/OpenMP-CD1719?style=flat-square" />
-<img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
-<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
-</p>
+<br>
 
----
+<h2 align="center"><img src="assets/icons/work.svg" width="22" /> <em>What I work on</em></h2>
 
-### What I work on
+> **Parallel Programming** — Parallelizing existing C++ code with OpenMP and checking the results against Amdahl's law, including the cases where thread overhead wins.
 
-> **Parallel Programming** -- Parallelizing existing C++ code with OpenMP and checking the results against Amdahl's law, including the cases where thread overhead wins.
+> **Systems in C** — Multithreaded servers over TCP sockets, like a Kafka-style message broker with consumer groups and disk persistence.
 
-> **Systems in C** -- Multithreaded servers over TCP sockets, like a Kafka-style message broker with consumer groups and disk persistence.
+> **Institutional Software** — Building NEXUS UNA, a web platform that consolidates academic information for UNA's Rector's Office.
 
-> **Institutional Software** -- Assistant at UNA's UGPCI, working on NEXUS UNA, a web platform that consolidates academic information for the Rector's Office.
+> **Tech Community** — Talks, workshops and events with the IEEE Student Branch that connect students with industry.
 
-> **Tech Community** -- Vice Chair of the IEEE Student Branch at UNA: talks, workshops and events that connect students with industry.
+<br>
 
-**Currently exploring:** machine learning and quantum computing.
-**Certifications:** Costa Rica Big Data School 2025 (CeNAT) · Cisco CCNA v7 (3 modules).
-
----
-
-#### My pinned projects are below.
+<p align="center"><em>My pinned projects are below ↓</em></p>

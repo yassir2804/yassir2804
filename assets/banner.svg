@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300">
+  <defs>
+    <radialGradient id="glow" cx="78%" cy="50%" r="55%">
+      <stop offset="0" stop-color="#CD1719" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0D1117" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.06"/>
+    </pattern>
+    <path id="l0" d="M760 150 C820 150 830 75 900 75 L1080 75 C1150 75 1160 150 1220 150"/>
+    <path id="l1" d="M760 150 C820 150 830 120 900 120 L1080 120 C1150 120 1160 150 1220 150"/>
+    <path id="l2" d="M760 150 C820 150 830 180 900 180 L1080 180 C1150 180 1160 150 1220 150"/>
+    <path id="l3" d="M760 150 C820 150 830 225 900 225 L1080 225 C1150 225 1160 150 1220 150"/>
+  </defs>
+  <rect width="1280" height="300" fill="#0D1117"/>
+  <rect width="1280" height="300" fill="url(#dots)"/>
+  <rect width="1280" height="300" fill="url(#glow)"/>
+  <rect x="0" y="296" width="1280" height="4" fill="#CD1719"/>
+
+  <!-- fork / join diagram -->
+  <g fill="none" stroke-linecap="round">
+    <line x1="680" y1="150" x2="760" y2="150" stroke="#E6EDF3" stroke-opacity="0.5" stroke-width="2"/>
+    <use href="#l0" stroke="#E6EDF3" stroke-opacity="0.35" stroke-width="2"/>
+    <use href="#l1" stroke="#E6EDF3" stroke-opacity="0.35" stroke-width="2"/>
+    <use href="#l2" stroke="#E6EDF3" stroke-opacity="0.35" stroke-width="2"/>
+    <use href="#l3" stroke="#E6EDF3" stroke-opacity="0.35" stroke-width="2"/>
+  </g>
+  <circle cx="760" cy="150" r="6" fill="#CD1719"/>
+  <circle cx="1220" cy="150" r="6" fill="#CD1719"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#8B949E">
+    <text x="736" y="132">fork</text>
+    <text x="1200" y="132">join</text>
+    <text x="1092" y="70">T0</text><text x="1092" y="115">T1</text>
+    <text x="1092" y="175">T2</text><text x="1092" y="220">T3</text>
+  </g>
+  <g fill="#CD1719">
+    <circle r="5"><animateMotion dur="3.2s" repeatCount="indefinite"><mpath href="#l0"/></animateMotion></circle>
+    <circle r="5"><animateMotion dur="2.6s" repeatCount="indefinite"><mpath href="#l1"/></animateMotion></circle>
+    <circle r="5"><animateMotion dur="3.8s" repeatCount="indefinite"><mpath href="#l2"/></animateMotion></circle>
+    <circle r="5"><animateMotion dur="2.9s" repeatCount="indefinite"><mpath href="#l3"/></animateMotion></circle>
+  </g>
+
+  <!-- text -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="70" y="112" font-size="16" fill="#CD1719">#pragma omp parallel  // welcome</text>
+    <text x="70" y="162" font-size="42" font-weight="700" fill="#E6EDF3" font-family="Segoe UI, Helvetica, Arial, sans-serif">Yassir Jiménez Carballo</text>
+    <text x="70" y="200" font-size="17" fill="#8B949E" font-family="Segoe UI, Helvetica, Arial, sans-serif">Information Systems Engineering · UNA Costa Rica</text>
+    <text x="70" y="240" font-size="15" fill="#E6EDF3" fill-opacity="0.75">{ parallel · systems · community }</text>
+  </g>
+</svg>

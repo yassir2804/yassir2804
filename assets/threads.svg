@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="230" viewBox="0 0 260 230">
+  <rect x="1" y="1" width="258" height="228" rx="12" fill="#0D1117" stroke="#30363D"/>
+  <circle cx="20" cy="20" r="5" fill="#CD1719"/><circle cx="36" cy="20" r="5" fill="#8B949E"/><circle cx="52" cy="20" r="5" fill="#30363D"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8B949E">
+    <text x="18" y="52">$ ./run --threads 4</text>
+    <text x="18" y="82">T0</text><text x="18" y="112">T1</text><text x="18" y="142">T2</text><text x="18" y="172">T3</text>
+  </g>
+  <g>
+    <rect x="44" y="72" width="196" height="12" rx="6" fill="#161B22"/>
+    <rect x="44" y="102" width="196" height="12" rx="6" fill="#161B22"/>
+    <rect x="44" y="132" width="196" height="12" rx="6" fill="#161B22"/>
+    <rect x="44" y="162" width="196" height="12" rx="6" fill="#161B22"/>
+  </g>
+  <g fill="#CD1719">
+    <rect x="44" y="72" height="12" rx="6" width="0"><animate attributeName="width" values="0;196;196" keyTimes="0;0.55;1" dur="4s" repeatCount="indefinite"/></rect>
+    <rect x="44" y="102" height="12" rx="6" width="0"><animate attributeName="width" values="0;196;196" keyTimes="0;0.40;1" dur="4s" repeatCount="indefinite"/></rect>
+    <rect x="44" y="132" height="12" rx="6" width="0"><animate attributeName="width" values="0;196;196" keyTimes="0;0.70;1" dur="4s" repeatCount="indefinite"/></rect>
+    <rect x="44" y="162" height="12" rx="6" width="0"><animate attributeName="width" values="0;196;196" keyTimes="0;0.85;1" dur="4s" repeatCount="indefinite"/></rect>
+  </g>
+  <text x="18" y="206" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#E6EDF3" opacity="0">✓ join · all threads done
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.85;0.88;0.98;1" dur="4s" repeatCount="indefinite"/>
+  </text>
+</svg>
