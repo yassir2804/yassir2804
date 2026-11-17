@@ -14,9 +14,9 @@
 
 Hi! I'm **Yassir**, an Information Systems Engineering student at Universidad Nacional de Costa Rica (UNA) and an Intermediate Technician in Computer Networks.
 
-I build software that real people use: Android apps backed by REST APIs, and web platforms for my own university. Outside the code, I spend a lot of my time building community. I helped found the first IEEE Student Branch at UNA, I organize talks and workshops that bring researchers and industry closer to students, and I represent students in university governance.
+I've done a bit of everything: mobile apps, backends, web platforms for my own university and computer networks, and I enjoy picking up whatever a project needs. Outside the code, I spend a lot of my time building community. I helped found the first IEEE Student Branch at UNA, I organize talks and workshops that bring researchers and industry closer to students, and I represent students in university governance.
 
-I'm curious about high-performance computing, AI and quantum computing, and I'm always up for a new challenge.
+I'm always up for a new challenge.
 
 <br clear="right" />
 
@@ -30,7 +30,7 @@ I'm curious about high-performance computing, AI and quantum computing, and I'm 
 
 <br>
 
-<h2 align="center"><img src="assets/icons/tools.svg" width="22" /> <em>Technologies</em></h2>
+<h2 align="center"><img src="assets/icons/tools.svg" width="22" /> <em>Things I've worked with</em></h2>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Kotlin-0D1117?style=for-the-badge&logo=kotlin&logoColor=CD1719" />
@@ -53,16 +53,22 @@ I'm curious about high-performance computing, AI and quantum computing, and I'm 
 
 <br>
 
-<h2 align="center"><img src="assets/icons/work.svg" width="22" /> <em>What I work on</em></h2>
+<h2 align="center"><img src="assets/icons/work.svg" width="22" /> <em>Projects</em></h2>
 
-> **Mobile & Backend** — Android apps in Kotlin (Hilt, Retrofit) talking to Spring Boot + PostgreSQL APIs with JWT, deployed on Heroku.
-
-> **Institutional Software** — Building NEXUS UNA, a web platform that consolidates academic information for UNA's Rector's Office.
-
-> **Networks** — Intermediate Technician in Computer Networks, with Cisco CCNA v7 training.
-
-> **Tech Community** — Talks, workshops and competitions with the IEEE Student Branch: from IEEE Day with CeNAT's supercomputing team to IEEEXtreme.
+| Project | What it is | Built with |
+|---|---|---|
+| **Dexter (SkillSwap)** · *moving to this account soon* | Team app to swap skills between people: Android client, REST API and an AI service that suggests session dates | Kotlin · Spring Boot · PostgreSQL · Gemini · Heroku |
+| **NEXUS UNA** · *private* | Web platform that consolidates academic information for UNA's Rector's Office (UGPCI) | Institutional project |
+| [MiniKafka](https://github.com/saulfv04/Message-Broker-MiniKafka) | Kafka-style message broker with producers, consumer groups and disk persistence | C · sockets · threads |
+| [Parallel browser simulator](https://github.com/yassir2804/proyecto-paralela) | A course project parallelized with OpenMP and measured against Amdahl's law | C++ · OpenMP |
+| [Pac-Man](https://github.com/yassir2804/ProyectoDatosPacman) | Pac-Man on a graph-based maze with four ghost behaviours, levels and save/load | Python · Pygame |
 
 <br>
 
-<p align="center"><em>My pinned projects are below ↓</em></p>
+<h2 align="center"><img src="assets/icons/data.svg" width="22" /> <em>What I'm curious about</em></h2>
+
+<p align="center">
+  AI &amp; machine learning · high-performance computing · quantum computing · computer networks · tech communities and education
+</p>
+
+<br>
